@@ -10,7 +10,7 @@ class Home extends Component {
     // inizializzo lo stato con i valori iniziali
   }
  //le prop nei componenti a classe li troviamo nel this.props
- //attribute: tag = props:component
+ //attribute: tag = props:component 
   render() {
     return (
       <Container>
