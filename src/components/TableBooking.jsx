@@ -216,7 +216,7 @@ render(){
         </FormGroup>
         <Form.Group className="mb-3">
                 <Form.Check type="checkbox" label="Tavolo fumatori?" 
-                onChange={e =>{
+                onChange={(e) =>{
                     this.setState({
                         reservation:{
                             ...this.state.reservation,
@@ -231,7 +231,7 @@ render(){
               <Form.Group className="mb-3">
                 <Form.Label>Quando volete venire?</Form.Label>
                 <Form.Control type="datetime-local" required
-                onChange={e =>{
+                onChange={(e) =>{
                   //  this.setState({
                    //     reservation: {
                     //        ...this.state.reservation,
@@ -246,7 +246,7 @@ render(){
               <Form.Group className="mb-3">
                 <Form.Label>Allergie/bambini/animali?</Form.Label>
                 <Form.Control as="textarea" rows={5} 
-                    onChange={e =>{
+                    onChange={(e) =>{
                         this.setState({
                             reservation: {
                                 ...this.state.reservation,
